@@ -9,3 +9,4 @@ alias xcurl="curl -b cookies.txt -H 'Accept: application/json'"
 alias xcleanapplication="rm -rf target/classes target/clover target/test-classes target/test-reports target/coverage test-output out tomcat.8080/"
 
 alias gdt='git difftool --no-prompt'
+alias gpf='git push --force'
