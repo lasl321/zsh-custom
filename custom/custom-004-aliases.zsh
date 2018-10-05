@@ -10,3 +10,4 @@ alias xcleanapplication="rm -rf target/classes target/clover target/test-classes
 
 alias gdt='git difftool --no-prompt'
 alias gpf='git push --force'
+alias gbdf='git branch -D'
