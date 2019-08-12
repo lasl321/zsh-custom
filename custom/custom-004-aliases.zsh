@@ -13,3 +13,4 @@ alias xcurl="curl -b cookies.txt -H 'Accept: application/json'"
 
 alias gdt='git difftool --no-prompt'
 alias gpf='git push --force'
+alias gbsc='git branch --sort=-committerdate'
