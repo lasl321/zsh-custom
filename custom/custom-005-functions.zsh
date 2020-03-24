@@ -12,5 +12,5 @@ function copy-for-build-dev-data () {
 }
 
 function my-chrome () {
-    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="${TMPDIR}/my-chrome" --no-proxy-server >/dev/null 2>&1 &
+    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="${HOME}/MyChrome" --no-proxy-server >/dev/null 2>&1 &
 }
