@@ -11,6 +11,15 @@ function copy-for-build-dev-data () {
     cp ~/source/stanson/security-inspections.gradle ~/source/docker-private-containers/build-dev-data/stanson/
 }
 
-function my-chrome () {
-    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --user-data-dir="${HOME}/MyChrome" --no-proxy-server >/dev/null 2>&1 &
+function set-python-ssl-environment () {
+    echo "Current interpreter:"
+    echo "  $(which python)"
+
+    if python -m certifi > /dev/null 2>&1; then
+        export REQUESTS_CA_BUNDLE=$(python -m certifi)
+        echo "\$REQUESTS_CA_BUNDLE:"
+        echo "  $REQUESTS_CA_BUNDLE"
+    else
+        return 1
+    fi
 }

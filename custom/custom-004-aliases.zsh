@@ -17,3 +17,4 @@ alias gbsc='git branch --sort=-committerdate'
 
 alias xruby='/usr/local/opt/ruby/bin/ruby'
 alias xgem='/usr/local/opt/ruby/bin/gem'
+alias weather='curl https://wttr.in/Sherman_Oaks'
