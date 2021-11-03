@@ -8,8 +8,3 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='red'
 POWERLEVEL9K_DIR_HOME_FOREGROUND='white'
 POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='white'
-
-export NODE_EXTRA_CA_CERTS=$HOME/Certificates/ZscalerRootCertificate-2048-SHA256.crt
-export STANSON_HOME=/Users/lsotomay/source/stanson
-export MIA_FOR_CONTIGO=1
-export MY_CERTIFICATES=/Users/lsotomay/Certificates
