@@ -1,4 +1,6 @@
 ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# Set customizations directory
 ZSH_CUSTOM=${0:a:h}/custom
 plugins=(
     git
