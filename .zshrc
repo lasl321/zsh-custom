@@ -2,6 +2,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set customizations directory
 ZSH_CUSTOM=${0:a:h}/custom
+
+# Let NVM automatically load versions in .nvmrc
+NVM_AUTOLOAD=1
+
 plugins=(
     git
     z
