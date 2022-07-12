@@ -16,11 +16,7 @@ plugins=(
     zsh-completions
     npm
     virtualenv
-    history
-    sudo
-    web-search
     copypath
-    copybuffer
     dirhistory
     nvm
 )
