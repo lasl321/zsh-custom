@@ -10,9 +10,6 @@ Current theme: https://github.com/romkatv/powerlevel10k
 # Software
 
 * `brew install nvm`
-* `brew install fortune`
-* `brew install cowsay`
-* `brew install lolcat`
 * `brew install diff-so-fancy`
 * `brew install gh`
 * `brew install neofetch`
