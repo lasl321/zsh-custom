@@ -14,3 +14,7 @@
 | GitHub CLI                               | `brew install gh`            |
 | System information display               | `brew install neofetch`      |
 | Directory tree display for your terminal | `brew install tree`          |
+
+# Notes
+
+1. Need to create `~/.nvm` 
