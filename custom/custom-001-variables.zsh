@@ -1,0 +1,1 @@
+BLUETOOTH_DEVICE='AirPods 2'
