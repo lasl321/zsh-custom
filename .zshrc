@@ -7,16 +7,16 @@ ZSH_CUSTOM=${0:a:h}/custom
 zstyle ':omz:plugins:nvm' autoload true
 
 plugins=(
-    git
-    z
-    zsh-syntax-highlighting
-    gradle
-    last-working-dir
-    zsh-autosuggestions
-    zsh-completions
-    npm
-    virtualenv
     copypath
     dirhistory
+    fzf
+    git
+    last-working-dir
+    npm
     nvm
+    virtualenv
+    zoxide
+    zsh-autosuggestions
+    zsh-completions
+    zsh-syntax-highlighting
 )

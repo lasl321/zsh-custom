@@ -15,6 +15,7 @@
 | System information display               | `brew install neofetch`      |
 | Directory tree display for your terminal | `brew install tree`          |
 | Better file/history search               | `brew install fzf`           |
+| Change directories based on history      | `brew install zoxide`        |
 
 # Notes
 
