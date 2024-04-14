@@ -21,4 +21,4 @@
 
 1. Need to create `~/.nvm`
 2. Need to create `~/.tmux/resurrect`
-
+3. Add theme from https://github.com/josean-dev/dev-environment-files/blob/main/coolnight.itermcolors
