@@ -15,6 +15,7 @@ plugins=(
     npm
     nvm
     virtualenv
+    web-search
     zoxide
     zsh-autosuggestions
     zsh-completions
