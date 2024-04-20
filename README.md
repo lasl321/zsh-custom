@@ -16,9 +16,12 @@
 | Directory tree display for your terminal | `brew install tree`          |
 | Better file/history search               | `brew install fzf`           |
 | Change directories based on history      | `brew install zoxide`        |
+| Better file search tool                  | `brew install ripgrep`       |
 
 # Notes
 
 1. Need to create `~/.nvm`
+   - Otherwise initial setup may not work
 2. Need to create `~/.tmux/resurrect`
+   - Otherwise backups are stored in different default location
 3. Add theme from https://github.com/josean-dev/dev-environment-files/blob/main/coolnight.itermcolors
