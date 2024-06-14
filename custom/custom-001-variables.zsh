@@ -1,1 +1,2 @@
 BLUETOOTH_DEVICE='AirPods 2'
+PATH=$HOME/.local/bin/:$PATH
