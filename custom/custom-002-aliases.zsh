@@ -8,3 +8,7 @@ alias npmbb='npm ci && npm run build'
 alias npmtc='npm run test:coverage'
 
 alias weather='curl https://wttr.in/Sherman_Oaks'
+
+alias lll=lazygit
+
+alias nf='nvim $(fzf --height 40%)'
