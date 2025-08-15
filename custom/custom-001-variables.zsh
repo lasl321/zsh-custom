@@ -1,2 +1,3 @@
 BLUETOOTH_DEVICE='AirPods 2'
+EDITOR=nvim
 PATH=$HOME/.local/bin/:$PATH
