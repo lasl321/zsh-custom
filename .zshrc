@@ -9,9 +9,11 @@ zstyle ':omz:plugins:nvm' autoload true
 # Change the cursor depending on the mode
 VI_MODE_SET_CURSOR=true
 
+# vi-mode must be set up before fzf; otherwise, ctrl-r does not work
 plugins=(
     copypath
     dirhistory
+    vi-mode
     fzf
     git
     last-working-dir
@@ -23,5 +25,4 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
     zsh-syntax-highlighting
-    vi-mode
 )
