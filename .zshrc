@@ -6,6 +6,9 @@ ZSH_CUSTOM=${0:a:h}/custom
 # Let NVM automatically load versions in .nvmrc
 zstyle ':omz:plugins:nvm' autoload true
 
+# Change the cursor depending on the mode
+VI_MODE_SET_CURSOR=true
+
 plugins=(
     copypath
     dirhistory
@@ -20,4 +23,5 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
     zsh-syntax-highlighting
+    vi-mode
 )
