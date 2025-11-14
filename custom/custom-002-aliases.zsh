@@ -12,3 +12,4 @@ alias weather='curl https://wttr.in/Sherman_Oaks'
 alias lll=lazygit
 
 alias nf='nvim $(fzf --height 40%)'
+alias n=nvim
