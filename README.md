@@ -17,6 +17,7 @@
 | Better file/history search               | `brew install fzf`           |
 | Change directories based on history      | `brew install zoxide`        |
 | Better file search tool                  | `brew install ripgrep`       |
+| Git client                               | `brew install lazygit`     |
 
 # Notes
 
