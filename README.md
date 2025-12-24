@@ -24,4 +24,4 @@
    - Otherwise initial setup may not work
 2. Need to create `~/.tmux/resurrect`
    - Otherwise backups are stored in different default location
-3. Add theme from https://github.com/josean-dev/dev-environment-files/blob/main/coolnight.itermcolors
+3. Install the Wezterm TERM definition as per https://wezterm.org/config/lua/config/term.html
