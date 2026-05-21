@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "shell": "/bin/zsh",
+  "command": {
+    "node-setup": {
+      "template": "Create a new NodeJS application with vitest and prettier as development dependencies.",
+      "description": "Add a new NodeJS application"
+    },
+    "gitignore-node": {
+      "template": "Add a `.gitignore` file for NodeJS applications that use TypeScript. The output directory is `dist`.",
+      "description": "Add a new `.gitignore` file for NodeJS applications."
+    }
+  }
+}
