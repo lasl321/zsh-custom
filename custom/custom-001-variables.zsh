@@ -1,6 +1,6 @@
 BLUETOOTH_DEVICE='AirPods 2'
 CODE_HOME=$HOME/code
-PATH=$HOME/.local/bin/:$PATH
+PATH=$HOME/.local/bin/:$HOME/Applications:$PATH
 ZSH_CUSTOM_PATH=$(dirname "${0:a:h}")
 
 export EDITOR=nvim
