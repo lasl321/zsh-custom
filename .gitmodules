@@ -1,6 +1,3 @@
-[submodule "custom/themes/powerlevel9k"]
-	path = custom/themes/powerlevel9k
-url=git@github.com:bhilburn/powerlevel9k.git
 [submodule "custom/plugins/zsh-autosuggestions"]
 	path = custom/plugins/zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
