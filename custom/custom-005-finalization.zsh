@@ -1,3 +1,3 @@
-if type neofetch > /dev/null; then
-    neofetch
+if type fastfetch > /dev/null; then
+    fastfetch
 fi
